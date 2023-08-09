@@ -17,7 +17,7 @@ spec:
           - git:
               repoURL: &repo https://github.com/alexmt/argocd-core-cluster-management.git
               directories:
-              - path: clusters/base/*
+              - path: clusters/bootstrap/*
       - merge:
           mergeKeys:
             - path
